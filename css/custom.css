@@ -1,0 +1,240 @@
+/* Should you need to overwrite any of our SCSS or LESS or SASS code need to add any custom code, We recommend that you add your code into this file, so whenever theme update is available and you update the theme, You will not lose your hard work :) */
+
+.container .row.form-rma-page .col-md-6{
+    width: 100%;
+}
+.table-product-page .redclr{
+    color: red;
+}
+
+.table-product-page{
+    vertical-align: middle;
+}
+
+.aboutus-02 .about-left-img:before {
+    content: none;
+}
+.home-page-s1 .card-style02:hover .plus-icon {
+    visibility: visible;
+    opacity: 1;
+}
+.home-page-s1 .plus-icon {
+    background: #8cc63f;
+}
+.about-page-s1 .plus-icon {
+    background: #8cc63f;
+}
+.home-page-s1 .plus-icon .video-link-popup{
+    color: #fff;
+}
+.about-page-s1 .plus-icon .video-link-popup{
+    color: #fff;
+}
+.about-page-s1 .card-style02:hover .plus-icon {
+    visibility: visible;
+    opacity: 1;
+}
+.custom-menu-header{
+    margin: auto;
+}
+
+
+.table-product-page {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-product-page th,
+.table-product-page td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+.table-product-page th {
+    background-color: #f2f2f2;
+}
+
+.aboutus .about-right .logo-btn-index-page .lg-text {
+    background-color: unset;
+    box-shadow: 0 0 30px 0 rgb(153 153 153 / 0%);
+}
+
+.image-container-points .points-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container-points .point {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.image-container-points .point:after {
+     content: "";
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     height: 25px;
+     width: 25px;
+     border: 2px solid red;
+     border-radius: 50%;
+     transform: translate(-50%, -50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     -ms-transform: translateX(-50%) translateY(-50%);
+     -o-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+     opacity: .3;
+     animation: pulse-border 1500ms ease-out infinite;
+ }
+
+.image-container-points .point:before {
+     content: "";
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     height: 35px;
+     width: 35px;
+     border: 2px solid red;
+     border-radius: 50%;
+     transform: translate(-50%, -50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     -ms-transform: translateX(-50%) translateY(-50%);
+     -o-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+     opacity: .3;
+     animation: pulse-border 1500ms ease-out infinite;
+ }
+
+.index-map-points .image-container-points img{
+    opacity: 0;
+}
+
+.index-map-points .img-map-modile{
+    display: none;
+}
+
+.image-container-points .point.point-1{
+    top: 48%;
+    left: 19.5%;
+}
+.image-container-points .point.point-2{
+    top: 73%;
+    left: 78%;
+    display: none;
+}
+.image-container-points .point.point-3{
+    top: 70%;
+    left: 53%;
+}
+.image-container-points .point.point-4{
+    top: 64%;
+    left: 30.5%;
+}
+
+.portfolio-carousel .portfolio-style01 .portfolio-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contact-form-page .quform-error-message{
+    display: none !important;
+}
+.rma-page-form .quform-error-message{
+    display: none !important;
+}
+.form-footer-block .quform-error-message{
+    display: none !important;
+}
+.rma-page-form .quform-element.form-group .quform-error-message{
+    display: block !important;
+}
+.contact-form-page .quform-element.form-group .quform-error-message{
+    display: block !important;
+}
+.form-footer-block .quform-element .quform-error-message{
+    display: block !important;
+}
+.index-page-margin-boton{
+    margin-bottom: 80px;
+}
+
+@media (min-width: 1200px) {
+    .foter-custum .pe-xl-5 {
+        padding-right: 1rem!important;
+    }
+    .video-index-page .display-xl-15 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .image-container-points .point.point-1 {
+        top: 46%;
+        left: 14.5%;
+    }
+    .image-container-points .point.point-4 {
+        top: 57%;
+        left: 26.5%;
+    }
+    .image-container-points .point.point-3 {
+        top: 61%;
+        left: 53%;
+    }
+
+    .index-map-points .img-map-decstop{
+        display: none;
+    }
+    .index-map-points .img-map-modile{
+        display: block;
+    }
+
+    .index-map-points .image-container-points img{
+        opacity: 1;
+    }
+    .index-map-points .bg-img{
+        background-image: none !important;
+    }
+}
+@media (max-width: 767px){
+    .image-container-points .point.point-3 {
+        top: 59%;
+        left: 52%;
+    }
+    .image-container-points .point {
+        width: 13px;
+        height: 13px;
+    }
+}
+@media (max-width: 500px){
+    .image-container-points .point.point-3 {
+        top: 58%;
+        left: 52%;
+    }
+}
+
+@media (max-width: 460px) {
+    .table-product-page {
+        font-size: 12px;
+    }
+}
+@media (max-width: 390px) {
+    .table-product-page {
+        font-size: 10px;
+    }
+}
+@media (max-width: 340px) {
+    .table-product-page {
+        font-size: 9px;
+    }
+}

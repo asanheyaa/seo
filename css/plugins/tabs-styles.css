@@ -1,0 +1,22 @@
+[data-tabs-link] {
+}
+
+
+[data-tabs-block]{
+	display: none;
+}
+[data-tabs-block].active{
+	display: block;
+	animation: showBlock 0.5s linear forwards;
+}
+
+
+@keyframes showBlock {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
